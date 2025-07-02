@@ -1,0 +1,161 @@
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+
+
+.navbar {
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+  padding: 0 !important;
+}
+
+.navbar-nav li {
+  padding: 0 10px;
+}
+
+.navbar-nav li a {
+  color: white;
+  font-weight: 600;
+}
+
+
+#banner {
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
+  }
+
+.play-btn {
+  width: 60px;
+  mix-blend-mode: multiply;
+  color: white;
+  
+}
+
+.img-fluid {
+  mix-blend-mode: multiply;
+  height: 250px;
+  opacity: 1;
+}
+
+.services img{
+height: 200px;
+width: 200px;
+}
+
+.sherz  {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.sherz button {
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
+
+}
+
+.tittle::before {
+  content: '';
+  background: #7b1798;
+  height: 5px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block ;
+  transform: translateY(63px);
+}
+
+.tittle::after {
+  content: '';
+  background: #7b1798;
+  height: 10px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block ;
+  transform: translateY(7px);
+}
+
+.Tittle::before {
+  content: '';
+  background: #7b1798;
+  height: 5px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block ;
+  transform: translateY(53px);
+}
+
+.Tittle::after {
+  content: '';
+  background: #7b1798;
+  height: 10px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block ;
+  transform: translateY(7px);
+}
+
+
+.about {
+  mix-blend-mode: multiply;
+}
+ul li {
+  margin: 10px 0;
+}
+
+.aaa {
+  margin-left: 4rem;
+}
+
+.user-detaile {
+  display: inline-block;
+  padding: 15px;
+}
+
+.icon {
+  mix-blend-mode: multiply;
+  height: 50px;
+  width: 50px;
+  margin-left: 3px;
+}
+
+.icon:hover {
+  transition: 0.2s;
+  transform: translateY(-10px);
+}
+
+#footer {
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
+color: white;
+}
+
+.logo {
+  mix-blend-mode: multiply;
+  height: 60px;
+  width: 60px;
+}
+
+.border-box .fa {
+  margin-right: 8px;
+  font-size: 25px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  padding-top: 7px;
+  border-radius: 2px;
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
+
+}
+
+ section {
+  scroll-behavior: smooth;
+ scroll-margin: 40px;
+}
+
+
+ .block svg {
+  display: inline-block;
+ }
